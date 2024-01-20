@@ -1,0 +1,16 @@
+#wish {
+  .wish {
+    .container {
+      .my {
+        padding-top: 150px;
+        padding-bottom: 100px;
+        .cards {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          gap: 20px;
+        }
+      }
+    }
+  }
+}

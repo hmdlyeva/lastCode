@@ -1,0 +1,32 @@
+#add {
+  padding-top: 100px;
+  .add {
+    .nav {
+      background-color: black;
+    }
+    .container {
+      .my {
+        .add_data {
+          .form {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            .inp {
+              padding: 10px;
+            }
+            button {
+              padding: 10px 20px;
+              background-color: orange;
+              border: none;
+              cursor: pointer;
+            }
+          }
+        }
+
+        .table {
+          margin: 100px 0px;
+        }
+      }
+    }
+  }
+}

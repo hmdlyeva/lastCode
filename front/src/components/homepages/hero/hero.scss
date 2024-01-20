@@ -1,0 +1,36 @@
+#hero {
+  .container {
+    .my {
+      text-align: center;
+      color: white;
+      padding-top: 270px;
+      h1 {
+        font-size: 45px;
+      }
+      button {
+        margin-top: 30px;
+        padding: 15px 25px;
+        background-color: inherit;
+        color: white;
+        border-color: white;
+        font-size: 20px;
+      }
+      button:hover {
+        background-color: white;
+        color: black;
+      }
+    }
+  }
+
+  .hero2{
+    background-image: url("../../../assets/image/insta-4.jpg");
+    height: 700px;
+    background-size: cover;
+  }
+  .hero {
+    background-image: url("../../../assets/image/insta-5.jpg");
+    height: 700px;
+    background-size: cover;
+   
+  }
+}

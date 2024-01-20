@@ -1,0 +1,49 @@
+#blog {
+  .blog {
+    background-color: #fafafa;
+    padding: 100px 0px;
+    .container {
+      .my {
+        text-align: center;
+        .mySwiper {
+          padding-top: 50px;
+          padding-bottom: 100px;
+        }
+        h1 {
+          font-size: 37px;
+          color: rgb(68, 68, 68);
+        }
+        .cards {
+          padding-top: 70px;
+          // display: flex;
+          // justify-content: space-between;
+          .card {
+            padding-bottom: 20px;
+            text-align: start;
+            
+            .image {
+              background-image: url("../../../assets/image/image_5.jpg");
+              height: 240px;
+              background-size: cover;
+              background-position: center;
+            }
+            .pp {
+              color: rgb(167, 167, 167);
+              padding: 10px 0px;
+            }
+            .font {
+              font-size: 24px;
+            }
+            .button {
+              color: gray;
+            }
+            .df {
+              display: flex;
+              justify-content: space-between;
+            }
+          }
+        }
+      }
+    }
+  }
+}

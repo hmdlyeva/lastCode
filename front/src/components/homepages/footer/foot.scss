@@ -1,0 +1,97 @@
+#footer {
+  .footer {
+    padding: 140px 0px;
+    background-color: #27272b;
+    .container {
+      .my {
+        display: flex;
+        justify-content: space-between;
+        h1 {
+          color: rgb(238, 238, 238);
+        }
+        .first {
+          width: 240px;
+          p {
+            padding-top: 30px;
+            color: gray;
+            line-height: 25px;
+          }
+          .icons {
+            display: flex;
+            gap: 15px;
+            color: white;
+            padding: 5px;
+          }
+        }
+        .second {
+          h1 {
+            padding-bottom: 30px;
+          }
+          .week {
+            line-height: 34px;
+            span {
+              color: white;
+            }
+            .color {
+              color: gray;
+              cursor: pointer;
+            }
+            .color:hover {
+              color: white;
+            }
+          }
+        }
+        .three {
+          width: 260px;
+          h1 {
+            padding-bottom: 30px;
+          }
+          p {
+            color: gray;
+          }
+        }
+        .four {
+          width: 260px;
+
+          p {
+            color: gray;
+          }
+          input {
+            border: 1px solid gray;
+            background-color: inherit;
+            padding: 10px;
+          }
+          .plane {
+            margin-left: -30px;
+            font-size: 13px;
+          }
+        }
+      }
+      .last {
+        padding-top: 50px;
+        display: flex;
+        justify-content: center;
+
+        p {
+          color: gray;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  #footer {
+    .my {
+      padding: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      .last {
+        p {
+          max-width: 200px;
+        }
+      }
+    }
+  }
+}

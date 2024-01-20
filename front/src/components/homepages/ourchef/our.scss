@@ -1,0 +1,46 @@
+#our_chef {
+  .our_chef {
+    .container {
+      .my {
+        display: flex;
+        gap: 100px;
+        justify-content: center;
+        flex-wrap: wrap;
+        .left {
+          background-image: url("../../../assets/image/person_1.jpg");
+          background-size: cover;
+          background-position: center;
+          height: 600px;
+          width: 500px;
+        }
+        .right {
+          padding-top: 80px;
+          max-width: 440px;
+          .light_gray {
+            color: lightgray;
+          }
+          p {
+            font-size: 20px;
+            color: gray;
+          }
+          h1 {
+            color: rgb(90, 90, 90);
+
+            font-size: 38px;
+          }
+        }
+      }
+    }
+  }
+}
+// @media (max-width: 1000px) {
+//   #our_chef {
+//     .my {
+//       display: flex;
+//       justify-content: center;
+//       .left {
+//         width: 100%;
+//       }
+//     }
+//   }
+// }

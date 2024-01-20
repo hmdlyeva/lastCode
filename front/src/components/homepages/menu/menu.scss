@@ -1,0 +1,119 @@
+#menu {
+  .menu {
+    background-color: #fafafa;
+    .container {
+      .my {
+        padding: 100px 0px;
+        text-align: center;
+        h1 {
+          font-size: 30px;
+          color: rgb(79, 79, 79);
+        }
+        .buttons {
+          padding-top: 80px;
+          margin-bottom: 50px;
+          button {
+            margin-left: 5px;
+            margin-right: 5px;
+            padding: 25px 30px;
+            font-size: 18px;
+            background-color: white;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            border: none;
+            cursor: pointer;
+          }
+          button:hover {
+            background-color: orange;
+          }
+        }
+        .cards {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 35px;
+          justify-content: center;
+          .card:hover {
+            transition: 700ms;
+            background-color: orange;
+            cursor: pointer;
+          }
+          .card {
+            width: 500px;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            display: flex;
+            justify-content: space-between;
+            padding-left: 14px;
+            padding-right: 19px;
+            .left {
+              display: flex;
+              gap: 15px;
+              align-items: center;
+              img {
+                width: 70px;
+                height: 70px;
+                border-radius: 50%;
+              }
+              .detail {
+                text-align: start;
+                .font {
+                  font-size: 22px;
+                  color: rgb(59, 59, 59);
+                }
+                p {
+                  font-size: 19px;
+                  color: gray;
+                }
+              }
+            }
+            .right {
+              display: flex;
+              align-items: center;
+              gap: 10px;
+              .heart {
+                font-size: 20px;
+              }
+              p {
+                font-size: 30px;
+              }
+            }
+          }
+        }
+
+        .footer_menu {
+          padding: 50px;
+          p {
+            font-size: 20px;
+            color: rgb(171, 171, 171);
+          }
+          button {
+            padding: 23px;
+            font-size: 18px;
+            color: orange;
+            border-color: orange;
+            background-color: inherit;
+            cursor: pointer;
+          }
+          button:hover {
+            background-color: orange;
+            color: gray;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  #menu {
+    .my {
+      .buttons {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center;
+        button {
+          width: 200px;
+        }
+      }
+    }
+  }
+}
